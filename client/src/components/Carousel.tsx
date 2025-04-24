@@ -10,7 +10,7 @@ interface CarouselProps {
 const Carousel = ({ children, title, seeAllLink }: CarouselProps) => {
   const carouselRef = useRef<HTMLDivElement>(null);
   const [showLeftButton, setShowLeftButton] = useState(false);
-  const [showRightButton, setShowRightButton] = useState(true);
+  const [showRightButton, setShowRightButton] = useState(true); 
 
   const scrollLeft = () => {
     if (carouselRef.current) {
