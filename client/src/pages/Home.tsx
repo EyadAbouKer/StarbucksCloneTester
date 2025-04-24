@@ -61,7 +61,7 @@ const Home = () => {
           </div>
           <div className="md:w-1/2 order-1 md:order-2">
             <img 
-              src="https://images.unsplash.com/photo-1543702440-18b2c5510d23?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+              src="https://content-prod-live.cert.starbucks.com/binary/v2/asset/143-97286.jpg" 
               alt="Chai in bloom" 
               className="w-full h-full object-cover"
             />
