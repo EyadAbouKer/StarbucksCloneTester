@@ -20,7 +20,7 @@ const Footer = () => {
           <div>
             <h3 className="font-bold mb-4">For Customers</h3>
             <ul className="space-y-2">
-              <li><Link href="/rewards" className="text-sm hover:underline">Starbucks® Rewards</Link></li>
+              <li><Link href="/rewards" className="text-sm hover:underline">Shuwaikh Coffee Rewards</Link></li>
               <li><Link href="/gift" className="text-sm hover:underline">Gift Cards</Link></li>
               <li><Link href="#" className="text-sm hover:underline">Mobile App</Link></li>
               <li><Link href="#" className="text-sm hover:underline">Customer Service</Link></li>
@@ -73,7 +73,7 @@ const Footer = () => {
             <Link href="#" className="block md:inline hover:underline">Privacy Policy</Link>
             <Link href="#" className="block md:inline hover:underline">Terms of Use</Link>
             <Link href="#" className="block md:inline hover:underline">CA Supply Chain Act</Link>
-            <span>© 2023 Starbucks Coffee Company. All rights reserved.</span>
+            <span>© 2025 Shuwaikh Coffee. All rights reserved.</span>
           </div>
         </div>
       </div>

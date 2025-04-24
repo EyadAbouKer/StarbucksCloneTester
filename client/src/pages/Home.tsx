@@ -5,19 +5,19 @@ const Home = () => {
   return (
     <>
       {/* Star Days Banner */}
-      <section className="bg-[#006241] text-white py-12 px-4">
+      <section className="bg-[#2552FF] text-white py-12 px-4">
         <div className="container mx-auto max-w-6xl flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-8 md:mb-0">
             <img 
               src="https://images.unsplash.com/photo-1573016452851-8654e4578120?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" 
-              alt="Star Days Promotion" 
+              alt="Reward Days Promotion" 
               className="rounded-lg"
             />
           </div>
           <div className="md:w-1/2 md:pl-12">
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">STAR DAYS are happening soon</h2>
-            <p className="mb-6">Boost your Star-earning power with every sip during STAR DAYS. Starting April 7-27, Starbucks Rewards members can enjoy exclusive offers every week.</p>
-            <Link href="#" className="inline-block bg-white text-[#006241] rounded-full px-6 py-2 font-medium hover:bg-gray-100 transition">Learn more</Link>
+            <h2 className="text-2xl md:text-3xl font-bold mb-4">REWARD DAYS are happening soon</h2>
+            <p className="mb-6">Boost your Reward-earning power with every sip during REWARD DAYS. Starting May 1-14, Shuwaikh Coffee Rewards members can enjoy exclusive offers every week.</p>
+            <Link href="#" className="inline-block bg-white text-[#2552FF] rounded-full px-6 py-2 font-medium hover:bg-gray-100 transition">Learn more</Link>
           </div>
         </div>
       </section>
@@ -142,11 +142,11 @@ const Home = () => {
       </section>
 
       {/* Rewards Program CTA */}
-      <section className="light-green py-12 px-4">
+      <section className="light-blue py-12 px-4">
         <div className="container mx-auto max-w-6xl text-center">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6">Starbucks® Rewards</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-6">Shuwaikh Coffee Rewards</h2>
           <p className="text-lg mb-8 max-w-3xl mx-auto">
-            Join Starbucks Rewards to earn Stars for free food and drinks, get free refills, pay and order with your phone, and more.
+            Join Shuwaikh Coffee Rewards to earn Points for free food and drinks, get free refills, pay and order with your phone, and more.
           </p>
           <Link href="/rewards" className="btn-primary">Join Now</Link>
         </div>

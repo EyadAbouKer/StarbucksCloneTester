@@ -14,18 +14,16 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center">
           <Link href="/" className="mr-6">
-            <svg className="h-12 w-12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2zm0 2a8 8 0 100 16 8 8 0 000-16zm0 2a6 6 0 100 12 6 6 0 000-12zm0 2a4 4 0 100 8 4 4 0 000-8z" fill="#006241"/>
-            </svg>
+            <img src="/assets/logo.jpg" alt="Shuwaikh Coffee" className="h-12 w-12 rounded-full" />
           </Link>
           <nav className="hidden md:flex space-x-6">
-            <Link href="/" className={`uppercase font-bold text-sm tracking-wide hover:text-primary transition ${location === '/' ? 'border-b-2 border-[#006241]' : ''}`}>
+            <Link href="/" className={`uppercase font-bold text-sm tracking-wide hover:text-primary transition ${location === '/' ? 'border-b-2 border-[#2552FF]' : ''}`}>
               Menu
             </Link>
-            <Link href="/rewards" className={`uppercase font-bold text-sm tracking-wide hover:text-primary transition ${location === '/rewards' ? 'border-b-2 border-[#006241]' : ''}`}>
+            <Link href="/rewards" className={`uppercase font-bold text-sm tracking-wide hover:text-primary transition ${location === '/rewards' ? 'border-b-2 border-[#2552FF]' : ''}`}>
               Rewards
             </Link>
-            <Link href="/gift" className={`uppercase font-bold text-sm tracking-wide hover:text-primary transition ${location === '/gift' ? 'border-b-2 border-[#006241]' : ''}`}>
+            <Link href="/gift" className={`uppercase font-bold text-sm tracking-wide hover:text-primary transition ${location === '/gift' ? 'border-b-2 border-[#2552FF]' : ''}`}>
               Gift Cards
             </Link>
           </nav>
