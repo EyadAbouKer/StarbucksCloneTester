@@ -1,3 +1,6 @@
+import couldntDoItWithoutYouImg from '../assets/couldntdoitwithoutyou.jpg';
+import couldntDoItWithoutYouImg2 from '../assets/couldntdoitwithoutyou2.jpg';
+
 interface GiftCard {
   id: string;
   title: string;
@@ -29,37 +32,37 @@ export const giftCards: GiftCardsByCategory = {
     {
       id: '001',
       title: 'Spring',
-      imageUrl: 'https://images.unsplash.com/photo-1520256862855-398228c41684?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+      imageUrl: couldntDoItWithoutYouImg, 
       category: 'featured'
     },
     {
       id: '002',
       title: 'Happy Birthday',
-      imageUrl: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+      imageUrl: couldntDoItWithoutYouImg2,
       category: 'featured'
     },
     {
       id: '003',
       title: 'Couldn\'t Do It Without You',
-      imageUrl: 'https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+      imageUrl: couldntDoItWithoutYouImg,
       category: 'featured'
     },
     {
       id: '004',
       title: 'Thank You',
-      imageUrl: 'https://images.unsplash.com/photo-1522120657009-060ca01afcd6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+      imageUrl: couldntDoItWithoutYouImg2,
       category: 'featured'
     },
     {
       id: '005',
       title: 'You Are Awesome',
-      imageUrl: 'https://images.unsplash.com/photo-1504542982118-59308b40fe0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+      imageUrl: couldntDoItWithoutYouImg,
       category: 'featured'
     },
     {
       id: '006',
       title: 'Celebration',
-      imageUrl: 'https://images.unsplash.com/photo-1531686264889-56fdcabd163f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+      imageUrl: couldntDoItWithoutYouImg2,
       category: 'featured'
     }
   ],
@@ -153,20 +156,20 @@ export const giftCards: GiftCardsByCategory = {
       category: 'spring'
     }
   ],
-  mothersDay: [
-    {
-      id: '020',
-      title: 'Happy Mother\'s Day',
-      imageUrl: 'https://images.unsplash.com/photo-1588875985407-dc9f5693be03?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
-      category: 'mothersDay'
-    },
-    {
-      id: '021',
-      title: 'Love You, Mom!',
-      imageUrl: 'https://images.unsplash.com/photo-1557428894-56bcc97113fe?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
-      category: 'mothersDay'
-    }
-  ],
+  // mothersDay: [
+  //   {
+  //     id: '020',
+  //     title: 'Happy Mother\'s Day',
+  //     imageUrl: 'https://images.unsplash.com/photo-1588875985407-dc9f5693be03?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+  //     category: 'mothersDay'
+  //   },
+  //   {
+  //     id: '021',
+  //     title: 'Love You, Mom!',
+  //     imageUrl: 'https://images.unsplash.com/photo-1557428894-56bcc97113fe?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+  //     category: 'mothersDay'
+  //   }
+  // ],
   teacherAppreciation: [
     {
       id: '022',
@@ -181,20 +184,20 @@ export const giftCards: GiftCardsByCategory = {
       category: 'teacherAppreciation'
     }
   ],
-  nurseAppreciation: [
-    {
-      id: '024',
-      title: 'For A Healthcare Hero',
-      imageUrl: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
-      category: 'nurseAppreciation'
-    },
-    {
-      id: '025',
-      title: 'A World Of Thanks',
-      imageUrl: 'https://images.unsplash.com/photo-1577368385284-a9971f650f0e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
-      category: 'nurseAppreciation'
-    }
-  ],
+  // nurseAppreciation: [
+  //   {
+  //     id: '024',
+  //     title: 'For A Healthcare Hero',
+  //     imageUrl: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+  //     category: 'nurseAppreciation'
+  //   },
+  //   {
+  //     id: '025',
+  //     title: 'A World Of Thanks',
+  //     imageUrl: 'https://images.unsplash.com/photo-1577368385284-a9971f650f0e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80',
+  //     category: 'nurseAppreciation'
+  //   }
+  // ],
   encouragement: [
     {
       id: '026',
